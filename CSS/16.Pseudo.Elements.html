@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-ELEMENTS</title>
+    <style>
+         .para1{
+            font-size: 1.5em;
+            letter-spacing: 2px;
+            line-height: 1.5em;
+        }
+       /* .para1::first-line{
+            color:red;
+        }
+        .para1::first-letter{
+            color:blue;
+            font-size: 3em;
+        } */
+        .para1::before{
+            content:"Paragraf Öncesi:";
+        }
+        .para1::after{
+            content:"Paragraf Sonrası:";
+        }
+    </style>
+</head>
+<body>
+    <p class="para1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad consectetur adipisci dolor! Molestiae ratione aut itaque aliquam ad iusto qui sapiente numquam quae voluptates minus blanditiis nulla eligendi rerum esse eius officiis distinctio vitae, quasi provident a! Officia autem iste molestiae totam sed, vero nihil et amet corrupti ipsum qui ratione voluptate temporibus ut maxime deserunt numquam sequi aut dolore quia eos sunt id nam soluta. Minus molestias itaque repudiandae commodi. Corporis, facilis similique velit fugit, iste eum ipsum explicabo neque nisi, nulla autem ratione modi nobis earum quis ea laudantium hic perferendis distinctio ab eos. Illo impedit eligendi libero.</p>
+</body>
+</html>
